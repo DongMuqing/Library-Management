@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Book</title>
+  <link rel="stylesheet" href="__CSS__/book.css">
+</head>
+
+<body>
+
+<main class="table">
+  <section class="header">
+    <h1>书籍</h1>
+
+    <form action="{:url('book/search')}" method="post" class="search">
+        <div class="input-group">
+            <input type="search" placeholder="请输入书名" name="id">
+            <img src="__IMG__/search.png">
+        </div>
+    </form>
+    <button><a href="{:url('book/add')}">添加</a></button>
+  </section>
+  <section class="shell">
+    <table>
+      <thead>
+      <tr>
+        <th>书名</th>
+        <th>价格</th>
+        <th>出版日期</th>
+        <th>出版社</th>
+        <th>操作</th>
+      </tr>
+      </thead>
+      <tbody>
+      {volist name="booklist" id="vo"}
+      <tr>
+        <td>{$vo.id}</td>
+        <td>{$vo.price}</td>
+        <td>{$vo.publicationdate}</td>
+        <td>{$vo.publishinghouse}</td>
+        <td>
+          <a href="{:url('book/edit',['id'=>$vo.id])}">修改</a>
+          <a href="{:url('book/del',['id'=>$vo.id])}">删除</a>
+        </td>
+      </tr>
+      {/volist}
+      </tbody>
+    </table>
+  </section>
+</main>
+</body>
+</html>
