@@ -7181,3 +7181,2119 @@
 [ sql ] [ DB ] CONNECT:[ UseTime:0.000855s ] mysql:host=127.0.0.1;port=3306;dbname=test;charset=utf8
 [ sql ] [ SQL ] SHOW COLUMNS FROM `tbl_book` [ RunTime:0.001032s ]
 [ sql ] [ SQL ] SELECT * FROM `tbl_book` [ RunTime:0.000259s ]
+---------------------------------------------------------------
+
+[2023-06-05T17:51:47+08:00] 127.0.0.1 GET 127.0.0.1:8000/
+[运行时间：0.022403s] [吞吐率：44.64req/s] [内存消耗：1,775.49kb] [文件加载：64]
+[ info ] [ LANG ] C:\Users\susu\Desktop\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => '',
+  'route' => 'index/login/index',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'complete_match' => true,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:8000',
+  'connection' => 'keep-alive',
+  'sec-ch-ua' => '"Google Chrome";v="113", "Chromium";v="113", "Not-A.Brand";v="24"',
+  'sec-ch-ua-mobile' => '?0',
+  'sec-ch-ua-platform' => '"Windows"',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
+  'sec-fetch-site' => 'none',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-user' => '?1',
+  'sec-fetch-dest' => 'document',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] C:\Users\susu\Desktop\tp5\application\index\view\login\index.html [ array (
+) ]
+---------------------------------------------------------------
+
+[2023-06-05T17:51:57+08:00] 127.0.0.1 POST 127.0.0.1:8000/index/login/login.html
+[运行时间：0.023219s] [吞吐率：43.07req/s] [内存消耗：3,117.33kb] [文件加载：78]
+[ info ] [ LANG ] C:\Users\susu\Desktop\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:8000',
+  'connection' => 'keep-alive',
+  'content-length' => '26',
+  'cache-control' => 'max-age=0',
+  'sec-ch-ua' => '"Google Chrome";v="113", "Chromium";v="113", "Not-A.Brand";v="24"',
+  'sec-ch-ua-mobile' => '?0',
+  'sec-ch-ua-platform' => '"Windows"',
+  'upgrade-insecure-requests' => '1',
+  'origin' => 'http://127.0.0.1:8000',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
+  'sec-fetch-site' => 'same-origin',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-user' => '?1',
+  'sec-fetch-dest' => 'document',
+  'referer' => 'http://127.0.0.1:8000/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'lisi',
+  'password' => '234',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\Users\susu\Desktop\tp5\thinkphp\tpl/dispatch_jump.tpl [ array (
+  0 => 'code',
+  1 => 'msg',
+  2 => 'data',
+  3 => 'url',
+  4 => 'wait',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001181s ] mysql:host=127.0.0.1;port=3306;dbname=test;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tb_user` [ RunTime:0.001224s ]
+[ sql ] [ SQL ] SELECT * FROM `tb_user` WHERE  `username` = 'lisi'  AND `password` = '234' [ RunTime:0.000306s ]
+---------------------------------------------------------------
+
+[2023-06-05T17:52:00+08:00] 127.0.0.1 GET 127.0.0.1:8000/index/book/index.html
+[运行时间：0.019346s] [吞吐率：51.69req/s] [内存消耗：2,791.19kb] [文件加载：72]
+[ info ] [ LANG ] C:\Users\susu\Desktop\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:8000',
+  'connection' => 'keep-alive',
+  'sec-ch-ua' => '"Google Chrome";v="113", "Chromium";v="113", "Not-A.Brand";v="24"',
+  'sec-ch-ua-mobile' => '?0',
+  'sec-ch-ua-platform' => '"Windows"',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
+  'sec-fetch-site' => 'same-origin',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-dest' => 'document',
+  'referer' => 'http://127.0.0.1:8000/index/login/login.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=36ovp6eeh957m4cg0eofn54soj',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\Users\susu\Desktop\tp5\application\index\view\book\index.html [ array (
+  0 => 'booklist',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000813s ] mysql:host=127.0.0.1;port=3306;dbname=test;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tbl_book` [ RunTime:0.001049s ]
+[ sql ] [ SQL ] SELECT * FROM `tbl_book` [ RunTime:0.000269s ]
+---------------------------------------------------------------
+
+[2023-06-05T17:52:26+08:00] 127.0.0.1 GET 127.0.0.1:8000/index/book/index.html
+[运行时间：0.042888s] [吞吐率：23.32req/s] [内存消耗：2,923.35kb] [文件加载：74]
+[ info ] [ LANG ] C:\Users\susu\Desktop\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:8000',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'sec-ch-ua' => '"Google Chrome";v="113", "Chromium";v="113", "Not-A.Brand";v="24"',
+  'sec-ch-ua-mobile' => '?0',
+  'sec-ch-ua-platform' => '"Windows"',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
+  'sec-fetch-site' => 'same-origin',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-user' => '?1',
+  'sec-fetch-dest' => 'document',
+  'referer' => 'http://127.0.0.1:8000/index/login/login.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=36ovp6eeh957m4cg0eofn54soj',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\Users\susu\Desktop\tp5\application\index\view\book\index.html [ array (
+  0 => 'booklist',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000754s ] mysql:host=127.0.0.1;port=3306;dbname=test;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tbl_book` [ RunTime:0.001042s ]
+[ sql ] [ SQL ] SELECT * FROM `tbl_book` [ RunTime:0.000181s ]
+---------------------------------------------------------------
+
+[2023-06-05T17:52:29+08:00] 127.0.0.1 POST 127.0.0.1:8000/index/book/search.html
+[运行时间：0.020048s] [吞吐率：49.88req/s] [内存消耗：2,790.43kb] [文件加载：71]
+[ info ] [ LANG ] C:\Users\susu\Desktop\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:8000',
+  'connection' => 'keep-alive',
+  'content-length' => '3',
+  'cache-control' => 'max-age=0',
+  'sec-ch-ua' => '"Google Chrome";v="113", "Chromium";v="113", "Not-A.Brand";v="24"',
+  'sec-ch-ua-mobile' => '?0',
+  'sec-ch-ua-platform' => '"Windows"',
+  'upgrade-insecure-requests' => '1',
+  'origin' => 'http://127.0.0.1:8000',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
+  'sec-fetch-site' => 'same-origin',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-user' => '?1',
+  'sec-fetch-dest' => 'document',
+  'referer' => 'http://127.0.0.1:8000/index/book/index.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=36ovp6eeh957m4cg0eofn54soj',
+)
+[ info ] [ PARAM ] array (
+  'id' => '',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\Users\susu\Desktop\tp5\application\index\view\book\search.html [ array (
+  0 => 'booklist',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001071s ] mysql:host=127.0.0.1;port=3306;dbname=test;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tbl_book` [ RunTime:0.001134s ]
+[ sql ] [ SQL ] SELECT * FROM `tbl_book` WHERE  `id` LIKE '%%' [ RunTime:0.000340s ]
+---------------------------------------------------------------
+
+[2023-06-05T17:52:38+08:00] 127.0.0.1 POST 127.0.0.1:8000/index/book/search.html
+[运行时间：0.022076s] [吞吐率：45.30req/s] [内存消耗：2,790.43kb] [文件加载：71]
+[ info ] [ LANG ] C:\Users\susu\Desktop\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:8000',
+  'connection' => 'keep-alive',
+  'content-length' => '3',
+  'cache-control' => 'max-age=0',
+  'sec-ch-ua' => '"Google Chrome";v="113", "Chromium";v="113", "Not-A.Brand";v="24"',
+  'sec-ch-ua-mobile' => '?0',
+  'sec-ch-ua-platform' => '"Windows"',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36',
+  'origin' => 'http://127.0.0.1:8000',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
+  'sec-fetch-site' => 'same-origin',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-user' => '?1',
+  'sec-fetch-dest' => 'document',
+  'referer' => 'http://127.0.0.1:8000/index/book/index.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=36ovp6eeh957m4cg0eofn54soj',
+)
+[ info ] [ PARAM ] array (
+  'id' => '',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\Users\susu\Desktop\tp5\application\index\view\book\search.html [ array (
+  0 => 'booklist',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001944s ] mysql:host=127.0.0.1;port=3306;dbname=test;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tbl_book` [ RunTime:0.000991s ]
+[ sql ] [ SQL ] SELECT * FROM `tbl_book` WHERE  `id` LIKE '%%' [ RunTime:0.000214s ]
+---------------------------------------------------------------
+
+[2023-06-05T17:52:47+08:00] 127.0.0.1 POST 127.0.0.1:8000/index/book/search.html
+[运行时间：0.020712s] [吞吐率：48.28req/s] [内存消耗：2,790.43kb] [文件加载：71]
+[ info ] [ LANG ] C:\Users\susu\Desktop\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:8000',
+  'connection' => 'keep-alive',
+  'content-length' => '3',
+  'cache-control' => 'max-age=0',
+  'sec-ch-ua' => '"Google Chrome";v="113", "Chromium";v="113", "Not-A.Brand";v="24"',
+  'sec-ch-ua-mobile' => '?0',
+  'sec-ch-ua-platform' => '"Windows"',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36',
+  'origin' => 'http://127.0.0.1:8000',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
+  'sec-fetch-site' => 'same-origin',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-user' => '?1',
+  'sec-fetch-dest' => 'document',
+  'referer' => 'http://127.0.0.1:8000/index/book/index.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=36ovp6eeh957m4cg0eofn54soj',
+)
+[ info ] [ PARAM ] array (
+  'id' => '',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\Users\susu\Desktop\tp5\application\index\view\book\search.html [ array (
+  0 => 'booklist',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001748s ] mysql:host=127.0.0.1;port=3306;dbname=test;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tbl_book` [ RunTime:0.000975s ]
+[ sql ] [ SQL ] SELECT * FROM `tbl_book` WHERE  `id` LIKE '%%' [ RunTime:0.000220s ]
+---------------------------------------------------------------
+
+[2023-06-05T17:52:48+08:00] 127.0.0.1 GET 127.0.0.1:8000/index/book/index.html
+[运行时间：0.036786s] [吞吐率：27.18req/s] [内存消耗：2,791.38kb] [文件加载：72]
+[ info ] [ LANG ] C:\Users\susu\Desktop\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:8000',
+  'connection' => 'keep-alive',
+  'sec-ch-ua' => '"Google Chrome";v="113", "Chromium";v="113", "Not-A.Brand";v="24"',
+  'sec-ch-ua-mobile' => '?0',
+  'sec-ch-ua-platform' => '"Windows"',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
+  'sec-fetch-site' => 'same-origin',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-user' => '?1',
+  'sec-fetch-dest' => 'document',
+  'referer' => 'http://127.0.0.1:8000/index/login/login.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=36ovp6eeh957m4cg0eofn54soj',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\Users\susu\Desktop\tp5\application\index\view\book\index.html [ array (
+  0 => 'booklist',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.016943s ] mysql:host=127.0.0.1;port=3306;dbname=test;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tbl_book` [ RunTime:0.001188s ]
+[ sql ] [ SQL ] SELECT * FROM `tbl_book` [ RunTime:0.000300s ]
+---------------------------------------------------------------
+
+[2023-06-05T17:52:52+08:00] 127.0.0.1 POST 127.0.0.1:8000/index/book/search.html
+[运行时间：0.019547s] [吞吐率：51.16req/s] [内存消耗：2,789.28kb] [文件加载：71]
+[ info ] [ LANG ] C:\Users\susu\Desktop\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:8000',
+  'connection' => 'keep-alive',
+  'content-length' => '4',
+  'cache-control' => 'max-age=0',
+  'sec-ch-ua' => '"Google Chrome";v="113", "Chromium";v="113", "Not-A.Brand";v="24"',
+  'sec-ch-ua-mobile' => '?0',
+  'sec-ch-ua-platform' => '"Windows"',
+  'upgrade-insecure-requests' => '1',
+  'origin' => 'http://127.0.0.1:8000',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
+  'sec-fetch-site' => 'same-origin',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-user' => '?1',
+  'sec-fetch-dest' => 'document',
+  'referer' => 'http://127.0.0.1:8000/index/book/index.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=36ovp6eeh957m4cg0eofn54soj',
+)
+[ info ] [ PARAM ] array (
+  'id' => 'p',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\Users\susu\Desktop\tp5\application\index\view\book\search.html [ array (
+  0 => 'booklist',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000693s ] mysql:host=127.0.0.1;port=3306;dbname=test;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tbl_book` [ RunTime:0.001113s ]
+[ sql ] [ SQL ] SELECT * FROM `tbl_book` WHERE  `id` LIKE '%p%' [ RunTime:0.000213s ]
+---------------------------------------------------------------
+
+[2023-06-05T17:53:11+08:00] 127.0.0.1 POST 127.0.0.1:8000/index/book/search.html
+[运行时间：0.071335s] [吞吐率：14.02req/s] [内存消耗：2,919.30kb] [文件加载：73]
+[ info ] [ LANG ] C:\Users\susu\Desktop\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:8000',
+  'connection' => 'keep-alive',
+  'content-length' => '4',
+  'cache-control' => 'max-age=0',
+  'sec-ch-ua' => '"Google Chrome";v="113", "Chromium";v="113", "Not-A.Brand";v="24"',
+  'sec-ch-ua-mobile' => '?0',
+  'sec-ch-ua-platform' => '"Windows"',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36',
+  'origin' => 'http://127.0.0.1:8000',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
+  'sec-fetch-site' => 'same-origin',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-user' => '?1',
+  'sec-fetch-dest' => 'document',
+  'referer' => 'http://127.0.0.1:8000/index/book/index.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=36ovp6eeh957m4cg0eofn54soj',
+)
+[ info ] [ PARAM ] array (
+  'id' => 'p',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\Users\susu\Desktop\tp5\application\index\view\book\search.html [ array (
+  0 => 'booklist',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.021847s ] mysql:host=127.0.0.1;port=3306;dbname=test;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tbl_book` [ RunTime:0.000964s ]
+[ sql ] [ SQL ] SELECT * FROM `tbl_book` WHERE  `id` LIKE '%p%' [ RunTime:0.000201s ]
+---------------------------------------------------------------
+
+[2023-06-05T17:53:39+08:00] 127.0.0.1 POST 127.0.0.1:8000/index/book/search.html
+[运行时间：0.066942s] [吞吐率：14.94req/s] [内存消耗：2,919.28kb] [文件加载：73]
+[ info ] [ LANG ] C:\Users\susu\Desktop\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:8000',
+  'connection' => 'keep-alive',
+  'content-length' => '4',
+  'cache-control' => 'max-age=0',
+  'sec-ch-ua' => '"Google Chrome";v="113", "Chromium";v="113", "Not-A.Brand";v="24"',
+  'sec-ch-ua-mobile' => '?0',
+  'sec-ch-ua-platform' => '"Windows"',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36',
+  'origin' => 'http://127.0.0.1:8000',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
+  'sec-fetch-site' => 'same-origin',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-user' => '?1',
+  'sec-fetch-dest' => 'document',
+  'referer' => 'http://127.0.0.1:8000/index/book/index.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=36ovp6eeh957m4cg0eofn54soj',
+)
+[ info ] [ PARAM ] array (
+  'id' => 'p',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\Users\susu\Desktop\tp5\application\index\view\book\search.html [ array (
+  0 => 'booklist',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.020408s ] mysql:host=127.0.0.1;port=3306;dbname=test;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tbl_book` [ RunTime:0.001199s ]
+[ sql ] [ SQL ] SELECT * FROM `tbl_book` WHERE  `id` LIKE '%p%' [ RunTime:0.000237s ]
+---------------------------------------------------------------
+
+[2023-06-05T17:53:41+08:00] 127.0.0.1 POST 127.0.0.1:8000/index/book/search.html
+[运行时间：0.019504s] [吞吐率：51.27req/s] [内存消耗：2,789.27kb] [文件加载：71]
+[ info ] [ LANG ] C:\Users\susu\Desktop\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:8000',
+  'connection' => 'keep-alive',
+  'content-length' => '4',
+  'cache-control' => 'max-age=0',
+  'sec-ch-ua' => '"Google Chrome";v="113", "Chromium";v="113", "Not-A.Brand";v="24"',
+  'sec-ch-ua-mobile' => '?0',
+  'sec-ch-ua-platform' => '"Windows"',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36',
+  'origin' => 'http://127.0.0.1:8000',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
+  'sec-fetch-site' => 'same-origin',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-user' => '?1',
+  'sec-fetch-dest' => 'document',
+  'referer' => 'http://127.0.0.1:8000/index/book/index.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=36ovp6eeh957m4cg0eofn54soj',
+)
+[ info ] [ PARAM ] array (
+  'id' => 'p',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\Users\susu\Desktop\tp5\application\index\view\book\search.html [ array (
+  0 => 'booklist',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000662s ] mysql:host=127.0.0.1;port=3306;dbname=test;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tbl_book` [ RunTime:0.001026s ]
+[ sql ] [ SQL ] SELECT * FROM `tbl_book` WHERE  `id` LIKE '%p%' [ RunTime:0.000207s ]
+---------------------------------------------------------------
+
+[2023-06-05T17:53:42+08:00] 127.0.0.1 POST 127.0.0.1:8000/index/book/search.html
+[运行时间：0.019634s] [吞吐率：50.93req/s] [内存消耗：2,790.41kb] [文件加载：71]
+[ info ] [ LANG ] C:\Users\susu\Desktop\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:8000',
+  'connection' => 'keep-alive',
+  'content-length' => '3',
+  'cache-control' => 'max-age=0',
+  'sec-ch-ua' => '"Google Chrome";v="113", "Chromium";v="113", "Not-A.Brand";v="24"',
+  'sec-ch-ua-mobile' => '?0',
+  'sec-ch-ua-platform' => '"Windows"',
+  'upgrade-insecure-requests' => '1',
+  'origin' => 'http://127.0.0.1:8000',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
+  'sec-fetch-site' => 'same-origin',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-user' => '?1',
+  'sec-fetch-dest' => 'document',
+  'referer' => 'http://127.0.0.1:8000/index/book/search.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=36ovp6eeh957m4cg0eofn54soj',
+)
+[ info ] [ PARAM ] array (
+  'id' => '',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\Users\susu\Desktop\tp5\application\index\view\book\search.html [ array (
+  0 => 'booklist',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000823s ] mysql:host=127.0.0.1;port=3306;dbname=test;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tbl_book` [ RunTime:0.001091s ]
+[ sql ] [ SQL ] SELECT * FROM `tbl_book` WHERE  `id` LIKE '%%' [ RunTime:0.000204s ]
+---------------------------------------------------------------
+
+[2023-06-05T17:53:45+08:00] 127.0.0.1 POST 127.0.0.1:8000/index/book/search.html
+[运行时间：0.027328s] [吞吐率：36.59req/s] [内存消耗：2,790.41kb] [文件加载：71]
+[ info ] [ LANG ] C:\Users\susu\Desktop\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:8000',
+  'connection' => 'keep-alive',
+  'content-length' => '3',
+  'cache-control' => 'max-age=0',
+  'sec-ch-ua' => '"Google Chrome";v="113", "Chromium";v="113", "Not-A.Brand";v="24"',
+  'sec-ch-ua-mobile' => '?0',
+  'sec-ch-ua-platform' => '"Windows"',
+  'upgrade-insecure-requests' => '1',
+  'origin' => 'http://127.0.0.1:8000',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
+  'sec-fetch-site' => 'same-origin',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-user' => '?1',
+  'sec-fetch-dest' => 'document',
+  'referer' => 'http://127.0.0.1:8000/index/book/search.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=36ovp6eeh957m4cg0eofn54soj',
+)
+[ info ] [ PARAM ] array (
+  'id' => '',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\Users\susu\Desktop\tp5\application\index\view\book\search.html [ array (
+  0 => 'booklist',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001806s ] mysql:host=127.0.0.1;port=3306;dbname=test;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tbl_book` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `tbl_book` WHERE  `id` LIKE '%%' [ RunTime:0.000205s ]
+---------------------------------------------------------------
+
+[2023-06-05T17:53:46+08:00] 127.0.0.1 POST 127.0.0.1:8000/index/book/search.html
+[运行时间：0.019327s] [吞吐率：51.74req/s] [内存消耗：2,790.41kb] [文件加载：71]
+[ info ] [ LANG ] C:\Users\susu\Desktop\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:8000',
+  'connection' => 'keep-alive',
+  'content-length' => '3',
+  'cache-control' => 'max-age=0',
+  'sec-ch-ua' => '"Google Chrome";v="113", "Chromium";v="113", "Not-A.Brand";v="24"',
+  'sec-ch-ua-mobile' => '?0',
+  'sec-ch-ua-platform' => '"Windows"',
+  'upgrade-insecure-requests' => '1',
+  'origin' => 'http://127.0.0.1:8000',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
+  'sec-fetch-site' => 'same-origin',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-user' => '?1',
+  'sec-fetch-dest' => 'document',
+  'referer' => 'http://127.0.0.1:8000/index/book/search.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=36ovp6eeh957m4cg0eofn54soj',
+)
+[ info ] [ PARAM ] array (
+  'id' => '',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\Users\susu\Desktop\tp5\application\index\view\book\search.html [ array (
+  0 => 'booklist',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000668s ] mysql:host=127.0.0.1;port=3306;dbname=test;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tbl_book` [ RunTime:0.000941s ]
+[ sql ] [ SQL ] SELECT * FROM `tbl_book` WHERE  `id` LIKE '%%' [ RunTime:0.000191s ]
+---------------------------------------------------------------
+
+[2023-06-05T17:53:47+08:00] 127.0.0.1 POST 127.0.0.1:8000/index/book/search.html
+[运行时间：0.019256s] [吞吐率：51.93req/s] [内存消耗：2,790.43kb] [文件加载：71]
+[ info ] [ LANG ] C:\Users\susu\Desktop\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:8000',
+  'connection' => 'keep-alive',
+  'content-length' => '3',
+  'cache-control' => 'max-age=0',
+  'sec-ch-ua' => '"Google Chrome";v="113", "Chromium";v="113", "Not-A.Brand";v="24"',
+  'sec-ch-ua-mobile' => '?0',
+  'sec-ch-ua-platform' => '"Windows"',
+  'upgrade-insecure-requests' => '1',
+  'origin' => 'http://127.0.0.1:8000',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
+  'sec-fetch-site' => 'same-origin',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-user' => '?1',
+  'sec-fetch-dest' => 'document',
+  'referer' => 'http://127.0.0.1:8000/index/book/search.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=36ovp6eeh957m4cg0eofn54soj',
+)
+[ info ] [ PARAM ] array (
+  'id' => '',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\Users\susu\Desktop\tp5\application\index\view\book\search.html [ array (
+  0 => 'booklist',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000809s ] mysql:host=127.0.0.1;port=3306;dbname=test;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tbl_book` [ RunTime:0.001065s ]
+[ sql ] [ SQL ] SELECT * FROM `tbl_book` WHERE  `id` LIKE '%%' [ RunTime:0.000334s ]
+---------------------------------------------------------------
+
+[2023-06-05T17:53:49+08:00] 127.0.0.1 POST 127.0.0.1:8000/index/book/search.html
+[运行时间：0.040006s] [吞吐率：25.00req/s] [内存消耗：2,790.43kb] [文件加载：71]
+[ info ] [ LANG ] C:\Users\susu\Desktop\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:8000',
+  'connection' => 'keep-alive',
+  'content-length' => '3',
+  'cache-control' => 'max-age=0',
+  'sec-ch-ua' => '"Google Chrome";v="113", "Chromium";v="113", "Not-A.Brand";v="24"',
+  'sec-ch-ua-mobile' => '?0',
+  'sec-ch-ua-platform' => '"Windows"',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36',
+  'origin' => 'http://127.0.0.1:8000',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
+  'sec-fetch-site' => 'same-origin',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-user' => '?1',
+  'sec-fetch-dest' => 'document',
+  'referer' => 'http://127.0.0.1:8000/index/book/search.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=36ovp6eeh957m4cg0eofn54soj',
+)
+[ info ] [ PARAM ] array (
+  'id' => '',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\Users\susu\Desktop\tp5\application\index\view\book\search.html [ array (
+  0 => 'booklist',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.019258s ] mysql:host=127.0.0.1;port=3306;dbname=test;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tbl_book` [ RunTime:0.001122s ]
+[ sql ] [ SQL ] SELECT * FROM `tbl_book` WHERE  `id` LIKE '%%' [ RunTime:0.000223s ]
+---------------------------------------------------------------
+
+[2023-06-05T17:53:49+08:00] 127.0.0.1 POST 127.0.0.1:8000/index/book/search.html
+[运行时间：0.020117s] [吞吐率：49.71req/s] [内存消耗：2,790.41kb] [文件加载：71]
+[ info ] [ LANG ] C:\Users\susu\Desktop\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:8000',
+  'connection' => 'keep-alive',
+  'content-length' => '3',
+  'cache-control' => 'max-age=0',
+  'sec-ch-ua' => '"Google Chrome";v="113", "Chromium";v="113", "Not-A.Brand";v="24"',
+  'sec-ch-ua-mobile' => '?0',
+  'sec-ch-ua-platform' => '"Windows"',
+  'upgrade-insecure-requests' => '1',
+  'origin' => 'http://127.0.0.1:8000',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
+  'sec-fetch-site' => 'same-origin',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-user' => '?1',
+  'sec-fetch-dest' => 'document',
+  'referer' => 'http://127.0.0.1:8000/index/book/search.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=36ovp6eeh957m4cg0eofn54soj',
+)
+[ info ] [ PARAM ] array (
+  'id' => '',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\Users\susu\Desktop\tp5\application\index\view\book\search.html [ array (
+  0 => 'booklist',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000918s ] mysql:host=127.0.0.1;port=3306;dbname=test;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tbl_book` [ RunTime:0.000954s ]
+[ sql ] [ SQL ] SELECT * FROM `tbl_book` WHERE  `id` LIKE '%%' [ RunTime:0.000199s ]
+---------------------------------------------------------------
+
+[2023-06-05T17:53:53+08:00] 127.0.0.1 POST 127.0.0.1:8000/index/book/search.html
+[运行时间：0.019637s] [吞吐率：50.92req/s] [内存消耗：2,788.14kb] [文件加载：71]
+[ info ] [ LANG ] C:\Users\susu\Desktop\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:8000',
+  'connection' => 'keep-alive',
+  'content-length' => '4',
+  'cache-control' => 'max-age=0',
+  'sec-ch-ua' => '"Google Chrome";v="113", "Chromium";v="113", "Not-A.Brand";v="24"',
+  'sec-ch-ua-mobile' => '?0',
+  'sec-ch-ua-platform' => '"Windows"',
+  'upgrade-insecure-requests' => '1',
+  'origin' => 'http://127.0.0.1:8000',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
+  'sec-fetch-site' => 'same-origin',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-user' => '?1',
+  'sec-fetch-dest' => 'document',
+  'referer' => 'http://127.0.0.1:8000/index/book/search.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=36ovp6eeh957m4cg0eofn54soj',
+)
+[ info ] [ PARAM ] array (
+  'id' => 'c',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\Users\susu\Desktop\tp5\application\index\view\book\search.html [ array (
+  0 => 'booklist',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001701s ] mysql:host=127.0.0.1;port=3306;dbname=test;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tbl_book` [ RunTime:0.000899s ]
+[ sql ] [ SQL ] SELECT * FROM `tbl_book` WHERE  `id` LIKE '%c%' [ RunTime:0.000207s ]
+---------------------------------------------------------------
+
+[2023-06-05T17:55:48+08:00] 127.0.0.1 POST 127.0.0.1:8000/index/book/search.html
+[运行时间：0.032763s] [吞吐率：30.52req/s] [内存消耗：2,789.28kb] [文件加载：71]
+[ info ] [ LANG ] C:\Users\susu\Desktop\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:8000',
+  'connection' => 'keep-alive',
+  'content-length' => '4',
+  'cache-control' => 'max-age=0',
+  'sec-ch-ua' => '"Google Chrome";v="113", "Chromium";v="113", "Not-A.Brand";v="24"',
+  'sec-ch-ua-mobile' => '?0',
+  'sec-ch-ua-platform' => '"Windows"',
+  'upgrade-insecure-requests' => '1',
+  'origin' => 'http://127.0.0.1:8000',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
+  'sec-fetch-site' => 'same-origin',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-user' => '?1',
+  'sec-fetch-dest' => 'document',
+  'referer' => 'http://127.0.0.1:8000/index/book/search.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=36ovp6eeh957m4cg0eofn54soj',
+)
+[ info ] [ PARAM ] array (
+  'id' => 'p',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\Users\susu\Desktop\tp5\application\index\view\book\search.html [ array (
+  0 => 'booklist',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.013228s ] mysql:host=127.0.0.1;port=3306;dbname=test;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tbl_book` [ RunTime:0.001592s ]
+[ sql ] [ SQL ] SELECT * FROM `tbl_book` WHERE  `id` LIKE '%p%' [ RunTime:0.000240s ]
+---------------------------------------------------------------
+
+[2023-06-05T17:57:22+08:00] 127.0.0.1 POST 127.0.0.1:8000/index/book/search.html
+[运行时间：0.021918s] [吞吐率：45.62req/s] [内存消耗：2,789.27kb] [文件加载：71]
+[ info ] [ LANG ] C:\Users\susu\Desktop\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:8000',
+  'connection' => 'keep-alive',
+  'content-length' => '4',
+  'cache-control' => 'max-age=0',
+  'sec-ch-ua' => '"Google Chrome";v="113", "Chromium";v="113", "Not-A.Brand";v="24"',
+  'sec-ch-ua-mobile' => '?0',
+  'sec-ch-ua-platform' => '"Windows"',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36',
+  'origin' => 'http://127.0.0.1:8000',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
+  'sec-fetch-site' => 'same-origin',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-user' => '?1',
+  'sec-fetch-dest' => 'document',
+  'referer' => 'http://127.0.0.1:8000/index/book/search.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=36ovp6eeh957m4cg0eofn54soj',
+)
+[ info ] [ PARAM ] array (
+  'id' => 'p',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\Users\susu\Desktop\tp5\application\index\view\book\search.html [ array (
+  0 => 'booklist',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000781s ] mysql:host=127.0.0.1;port=3306;dbname=test;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tbl_book` [ RunTime:0.000981s ]
+[ sql ] [ SQL ] SELECT * FROM `tbl_book` WHERE  `id` LIKE '%p%' [ RunTime:0.000267s ]
+---------------------------------------------------------------
+
+[2023-06-05T17:57:24+08:00] 127.0.0.1 POST 127.0.0.1:8000/index/book/search.html
+[运行时间：0.021883s] [吞吐率：45.70req/s] [内存消耗：2,789.28kb] [文件加载：71]
+[ info ] [ LANG ] C:\Users\susu\Desktop\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:8000',
+  'connection' => 'keep-alive',
+  'content-length' => '4',
+  'cache-control' => 'max-age=0',
+  'sec-ch-ua' => '"Google Chrome";v="113", "Chromium";v="113", "Not-A.Brand";v="24"',
+  'sec-ch-ua-mobile' => '?0',
+  'sec-ch-ua-platform' => '"Windows"',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36',
+  'origin' => 'http://127.0.0.1:8000',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
+  'sec-fetch-site' => 'same-origin',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-user' => '?1',
+  'sec-fetch-dest' => 'document',
+  'referer' => 'http://127.0.0.1:8000/index/book/search.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=36ovp6eeh957m4cg0eofn54soj',
+)
+[ info ] [ PARAM ] array (
+  'id' => 'p',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\Users\susu\Desktop\tp5\application\index\view\book\search.html [ array (
+  0 => 'booklist',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001853s ] mysql:host=127.0.0.1;port=3306;dbname=test;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tbl_book` [ RunTime:0.000873s ]
+[ sql ] [ SQL ] SELECT * FROM `tbl_book` WHERE  `id` LIKE '%p%' [ RunTime:0.000251s ]
+---------------------------------------------------------------
+
+[2023-06-05T17:57:31+08:00] 127.0.0.1 GET 127.0.0.1:8000/index/book/
+[运行时间：0.044018s] [吞吐率：22.72req/s] [内存消耗：2,923.08kb] [文件加载：74]
+[ info ] [ LANG ] C:\Users\susu\Desktop\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:8000',
+  'connection' => 'keep-alive',
+  'sec-ch-ua' => '"Google Chrome";v="113", "Chromium";v="113", "Not-A.Brand";v="24"',
+  'sec-ch-ua-mobile' => '?0',
+  'sec-ch-ua-platform' => '"Windows"',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
+  'sec-fetch-site' => 'none',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-user' => '?1',
+  'sec-fetch-dest' => 'document',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=36ovp6eeh957m4cg0eofn54soj',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\Users\susu\Desktop\tp5\application\index\view\book\index.html [ array (
+  0 => 'booklist',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000660s ] mysql:host=127.0.0.1;port=3306;dbname=test;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tbl_book` [ RunTime:0.000964s ]
+[ sql ] [ SQL ] SELECT * FROM `tbl_book` [ RunTime:0.000186s ]
+---------------------------------------------------------------
+
+[2023-06-05T17:57:33+08:00] 127.0.0.1 GET 127.0.0.1:8000/index/book/
+[运行时间：0.046855s] [吞吐率：21.34req/s] [内存消耗：2,791.89kb] [文件加载：72]
+[ info ] [ LANG ] C:\Users\susu\Desktop\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:8000',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'sec-ch-ua' => '"Google Chrome";v="113", "Chromium";v="113", "Not-A.Brand";v="24"',
+  'sec-ch-ua-mobile' => '?0',
+  'sec-ch-ua-platform' => '"Windows"',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
+  'sec-fetch-site' => 'none',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-user' => '?1',
+  'sec-fetch-dest' => 'document',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=36ovp6eeh957m4cg0eofn54soj',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\Users\susu\Desktop\tp5\application\index\view\book\index.html [ array (
+  0 => 'booklist',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.025447s ] mysql:host=127.0.0.1;port=3306;dbname=test;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tbl_book` [ RunTime:0.001742s ]
+[ sql ] [ SQL ] SELECT * FROM `tbl_book` [ RunTime:0.000332s ]
+---------------------------------------------------------------
+
+[2023-06-05T17:57:34+08:00] 127.0.0.1 POST 127.0.0.1:8000/index/book/search.html
+[运行时间：0.019328s] [吞吐率：51.74req/s] [内存消耗：2,790.40kb] [文件加载：71]
+[ info ] [ LANG ] C:\Users\susu\Desktop\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:8000',
+  'connection' => 'keep-alive',
+  'content-length' => '3',
+  'cache-control' => 'max-age=0',
+  'sec-ch-ua' => '"Google Chrome";v="113", "Chromium";v="113", "Not-A.Brand";v="24"',
+  'sec-ch-ua-mobile' => '?0',
+  'sec-ch-ua-platform' => '"Windows"',
+  'upgrade-insecure-requests' => '1',
+  'origin' => 'http://127.0.0.1:8000',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
+  'sec-fetch-site' => 'same-origin',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-user' => '?1',
+  'sec-fetch-dest' => 'document',
+  'referer' => 'http://127.0.0.1:8000/index/book/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=36ovp6eeh957m4cg0eofn54soj',
+)
+[ info ] [ PARAM ] array (
+  'id' => '',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\Users\susu\Desktop\tp5\application\index\view\book\search.html [ array (
+  0 => 'booklist',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000997s ] mysql:host=127.0.0.1;port=3306;dbname=test;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tbl_book` [ RunTime:0.000947s ]
+[ sql ] [ SQL ] SELECT * FROM `tbl_book` WHERE  `id` LIKE '%%' [ RunTime:0.000193s ]
+---------------------------------------------------------------
+
+[2023-06-05T17:58:40+08:00] 127.0.0.1 POST 127.0.0.1:8000/index/book/search.html
+[运行时间：0.033884s] [吞吐率：29.51req/s] [内存消耗：2,790.40kb] [文件加载：71]
+[ info ] [ LANG ] C:\Users\susu\Desktop\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:8000',
+  'connection' => 'keep-alive',
+  'content-length' => '3',
+  'cache-control' => 'max-age=0',
+  'sec-ch-ua' => '"Google Chrome";v="113", "Chromium";v="113", "Not-A.Brand";v="24"',
+  'sec-ch-ua-mobile' => '?0',
+  'sec-ch-ua-platform' => '"Windows"',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36',
+  'origin' => 'http://127.0.0.1:8000',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
+  'sec-fetch-site' => 'same-origin',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-user' => '?1',
+  'sec-fetch-dest' => 'document',
+  'referer' => 'http://127.0.0.1:8000/index/book/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=36ovp6eeh957m4cg0eofn54soj',
+)
+[ info ] [ PARAM ] array (
+  'id' => '',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\Users\susu\Desktop\tp5\application\index\view\book\search.html [ array (
+  0 => 'booklist',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000836s ] mysql:host=127.0.0.1;port=3306;dbname=test;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tbl_book` [ RunTime:0.001055s ]
+[ sql ] [ SQL ] SELECT * FROM `tbl_book` WHERE  `id` LIKE '%%' [ RunTime:0.000234s ]
+---------------------------------------------------------------
+
+[2023-06-05T17:58:43+08:00] 127.0.0.1 GET 127.0.0.1:8000/index/book
+[运行时间：0.049491s] [吞吐率：20.21req/s] [内存消耗：2,791.81kb] [文件加载：72]
+[ info ] [ LANG ] C:\Users\susu\Desktop\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:8000',
+  'connection' => 'keep-alive',
+  'sec-ch-ua' => '"Google Chrome";v="113", "Chromium";v="113", "Not-A.Brand";v="24"',
+  'sec-ch-ua-mobile' => '?0',
+  'sec-ch-ua-platform' => '"Windows"',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
+  'sec-fetch-site' => 'none',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-user' => '?1',
+  'sec-fetch-dest' => 'document',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=36ovp6eeh957m4cg0eofn54soj',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\Users\susu\Desktop\tp5\application\index\view\book\index.html [ array (
+  0 => 'booklist',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.023448s ] mysql:host=127.0.0.1;port=3306;dbname=test;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tbl_book` [ RunTime:0.000957s ]
+[ sql ] [ SQL ] SELECT * FROM `tbl_book` [ RunTime:0.000180s ]
+---------------------------------------------------------------
+
+[2023-06-05T17:58:44+08:00] 127.0.0.1 POST 127.0.0.1:8000/index/book/search.html
+[运行时间：0.020301s] [吞吐率：49.26req/s] [内存消耗：2,790.41kb] [文件加载：71]
+[ info ] [ LANG ] C:\Users\susu\Desktop\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:8000',
+  'connection' => 'keep-alive',
+  'content-length' => '3',
+  'cache-control' => 'max-age=0',
+  'sec-ch-ua' => '"Google Chrome";v="113", "Chromium";v="113", "Not-A.Brand";v="24"',
+  'sec-ch-ua-mobile' => '?0',
+  'sec-ch-ua-platform' => '"Windows"',
+  'upgrade-insecure-requests' => '1',
+  'origin' => 'http://127.0.0.1:8000',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
+  'sec-fetch-site' => 'same-origin',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-user' => '?1',
+  'sec-fetch-dest' => 'document',
+  'referer' => 'http://127.0.0.1:8000/index/book',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=36ovp6eeh957m4cg0eofn54soj',
+)
+[ info ] [ PARAM ] array (
+  'id' => '',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\Users\susu\Desktop\tp5\application\index\view\book\search.html [ array (
+  0 => 'booklist',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000988s ] mysql:host=127.0.0.1;port=3306;dbname=test;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tbl_book` [ RunTime:0.000975s ]
+[ sql ] [ SQL ] SELECT * FROM `tbl_book` WHERE  `id` LIKE '%%' [ RunTime:0.000200s ]
+---------------------------------------------------------------
+
+[2023-06-05T17:58:45+08:00] 127.0.0.1 POST 127.0.0.1:8000/index/book/search.html
+[运行时间：0.019626s] [吞吐率：50.95req/s] [内存消耗：2,790.43kb] [文件加载：71]
+[ info ] [ LANG ] C:\Users\susu\Desktop\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:8000',
+  'connection' => 'keep-alive',
+  'content-length' => '3',
+  'cache-control' => 'max-age=0',
+  'sec-ch-ua' => '"Google Chrome";v="113", "Chromium";v="113", "Not-A.Brand";v="24"',
+  'sec-ch-ua-mobile' => '?0',
+  'sec-ch-ua-platform' => '"Windows"',
+  'upgrade-insecure-requests' => '1',
+  'origin' => 'http://127.0.0.1:8000',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
+  'sec-fetch-site' => 'same-origin',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-user' => '?1',
+  'sec-fetch-dest' => 'document',
+  'referer' => 'http://127.0.0.1:8000/index/book/search.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=36ovp6eeh957m4cg0eofn54soj',
+)
+[ info ] [ PARAM ] array (
+  'id' => '',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\Users\susu\Desktop\tp5\application\index\view\book\search.html [ array (
+  0 => 'booklist',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000663s ] mysql:host=127.0.0.1;port=3306;dbname=test;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tbl_book` [ RunTime:0.000963s ]
+[ sql ] [ SQL ] SELECT * FROM `tbl_book` WHERE  `id` LIKE '%%' [ RunTime:0.000193s ]
+---------------------------------------------------------------
+
+[2023-06-05T17:58:46+08:00] 127.0.0.1 GET 127.0.0.1:8000/index/book/add.html
+[运行时间：0.013718s] [吞吐率：72.90req/s] [内存消耗：1,813.64kb] [文件加载：65]
+[ info ] [ LANG ] C:\Users\susu\Desktop\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:8000',
+  'connection' => 'keep-alive',
+  'sec-ch-ua' => '"Google Chrome";v="113", "Chromium";v="113", "Not-A.Brand";v="24"',
+  'sec-ch-ua-mobile' => '?0',
+  'sec-ch-ua-platform' => '"Windows"',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
+  'sec-fetch-site' => 'same-origin',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-user' => '?1',
+  'sec-fetch-dest' => 'document',
+  'referer' => 'http://127.0.0.1:8000/index/book/search.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=36ovp6eeh957m4cg0eofn54soj',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] C:\Users\susu\Desktop\tp5\application\index\view\book\add.html [ array (
+) ]
+---------------------------------------------------------------
+
+[2023-06-05T17:59:18+08:00] 127.0.0.1 POST 127.0.0.1:8000/index/book/search.html
+[运行时间：0.020112s] [吞吐率：49.72req/s] [内存消耗：2,790.41kb] [文件加载：71]
+[ info ] [ LANG ] C:\Users\susu\Desktop\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:8000',
+  'connection' => 'keep-alive',
+  'content-length' => '3',
+  'cache-control' => 'max-age=0',
+  'sec-ch-ua' => '"Google Chrome";v="113", "Chromium";v="113", "Not-A.Brand";v="24"',
+  'sec-ch-ua-mobile' => '?0',
+  'sec-ch-ua-platform' => '"Windows"',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36',
+  'origin' => 'http://127.0.0.1:8000',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
+  'sec-fetch-site' => 'same-origin',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-user' => '?1',
+  'sec-fetch-dest' => 'document',
+  'referer' => 'http://127.0.0.1:8000/index/book/search.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=36ovp6eeh957m4cg0eofn54soj',
+)
+[ info ] [ PARAM ] array (
+  'id' => '',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\Users\susu\Desktop\tp5\application\index\view\book\search.html [ array (
+  0 => 'booklist',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001173s ] mysql:host=127.0.0.1;port=3306;dbname=test;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tbl_book` [ RunTime:0.001023s ]
+[ sql ] [ SQL ] SELECT * FROM `tbl_book` WHERE  `id` LIKE '%%' [ RunTime:0.000368s ]
+---------------------------------------------------------------
+
+[2023-06-05T17:59:43+08:00] 127.0.0.1 POST 127.0.0.1:8000/index/book/search.html
+[运行时间：0.040994s] [吞吐率：24.39req/s] [内存消耗：2,790.41kb] [文件加载：71]
+[ info ] [ LANG ] C:\Users\susu\Desktop\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:8000',
+  'connection' => 'keep-alive',
+  'content-length' => '3',
+  'cache-control' => 'max-age=0',
+  'sec-ch-ua' => '"Google Chrome";v="113", "Chromium";v="113", "Not-A.Brand";v="24"',
+  'sec-ch-ua-mobile' => '?0',
+  'sec-ch-ua-platform' => '"Windows"',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36',
+  'origin' => 'http://127.0.0.1:8000',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
+  'sec-fetch-site' => 'same-origin',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-user' => '?1',
+  'sec-fetch-dest' => 'document',
+  'referer' => 'http://127.0.0.1:8000/index/book/search.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=36ovp6eeh957m4cg0eofn54soj',
+)
+[ info ] [ PARAM ] array (
+  'id' => '',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\Users\susu\Desktop\tp5\application\index\view\book\search.html [ array (
+  0 => 'booklist',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.019626s ] mysql:host=127.0.0.1;port=3306;dbname=test;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tbl_book` [ RunTime:0.001473s ]
+[ sql ] [ SQL ] SELECT * FROM `tbl_book` WHERE  `id` LIKE '%%' [ RunTime:0.000241s ]
+---------------------------------------------------------------
+
+[2023-06-05T17:59:45+08:00] 127.0.0.1 GET 127.0.0.1:8000/index/book
+[运行时间：0.019506s] [吞吐率：51.27req/s] [内存消耗：2,791.81kb] [文件加载：72]
+[ info ] [ LANG ] C:\Users\susu\Desktop\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:8000',
+  'connection' => 'keep-alive',
+  'sec-ch-ua' => '"Google Chrome";v="113", "Chromium";v="113", "Not-A.Brand";v="24"',
+  'sec-ch-ua-mobile' => '?0',
+  'sec-ch-ua-platform' => '"Windows"',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
+  'sec-fetch-site' => 'none',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-user' => '?1',
+  'sec-fetch-dest' => 'document',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=36ovp6eeh957m4cg0eofn54soj',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\Users\susu\Desktop\tp5\application\index\view\book\index.html [ array (
+  0 => 'booklist',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000861s ] mysql:host=127.0.0.1;port=3306;dbname=test;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tbl_book` [ RunTime:0.001103s ]
+[ sql ] [ SQL ] SELECT * FROM `tbl_book` [ RunTime:0.000261s ]
+---------------------------------------------------------------
+
+[2023-06-05T17:59:46+08:00] 127.0.0.1 GET 127.0.0.1:8000/index/book
+[运行时间：0.047538s] [吞吐率：21.04req/s] [内存消耗：2,791.89kb] [文件加载：72]
+[ info ] [ LANG ] C:\Users\susu\Desktop\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:8000',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'sec-ch-ua' => '"Google Chrome";v="113", "Chromium";v="113", "Not-A.Brand";v="24"',
+  'sec-ch-ua-mobile' => '?0',
+  'sec-ch-ua-platform' => '"Windows"',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
+  'sec-fetch-site' => 'none',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-user' => '?1',
+  'sec-fetch-dest' => 'document',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=36ovp6eeh957m4cg0eofn54soj',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\Users\susu\Desktop\tp5\application\index\view\book\index.html [ array (
+  0 => 'booklist',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.016586s ] mysql:host=127.0.0.1;port=3306;dbname=test;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tbl_book` [ RunTime:0.000891s ]
+[ sql ] [ SQL ] SELECT * FROM `tbl_book` [ RunTime:0.000198s ]
+---------------------------------------------------------------
+
+[2023-06-05T17:59:46+08:00] 127.0.0.1 GET 127.0.0.1:8000/index/book
+[运行时间：0.036700s] [吞吐率：27.25req/s] [内存消耗：2,791.89kb] [文件加载：72]
+[ info ] [ LANG ] C:\Users\susu\Desktop\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:8000',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'sec-ch-ua' => '"Google Chrome";v="113", "Chromium";v="113", "Not-A.Brand";v="24"',
+  'sec-ch-ua-mobile' => '?0',
+  'sec-ch-ua-platform' => '"Windows"',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
+  'sec-fetch-site' => 'none',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-user' => '?1',
+  'sec-fetch-dest' => 'document',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=36ovp6eeh957m4cg0eofn54soj',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\Users\susu\Desktop\tp5\application\index\view\book\index.html [ array (
+  0 => 'booklist',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.016974s ] mysql:host=127.0.0.1;port=3306;dbname=test;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tbl_book` [ RunTime:0.001111s ]
+[ sql ] [ SQL ] SELECT * FROM `tbl_book` [ RunTime:0.000240s ]
+---------------------------------------------------------------
+
+[2023-06-05T18:00:54+08:00] 127.0.0.1 GET 127.0.0.1:8000/index/book
+[运行时间：0.021945s] [吞吐率：45.57req/s] [内存消耗：2,791.89kb] [文件加载：72]
+[ info ] [ LANG ] C:\Users\susu\Desktop\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:8000',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'sec-ch-ua' => '"Google Chrome";v="113", "Chromium";v="113", "Not-A.Brand";v="24"',
+  'sec-ch-ua-mobile' => '?0',
+  'sec-ch-ua-platform' => '"Windows"',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
+  'sec-fetch-site' => 'none',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-user' => '?1',
+  'sec-fetch-dest' => 'document',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=36ovp6eeh957m4cg0eofn54soj',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\Users\susu\Desktop\tp5\application\index\view\book\index.html [ array (
+  0 => 'booklist',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001980s ] mysql:host=127.0.0.1;port=3306;dbname=test;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tbl_book` [ RunTime:0.001131s ]
+[ sql ] [ SQL ] SELECT * FROM `tbl_book` [ RunTime:0.000307s ]
+---------------------------------------------------------------
+
+[2023-06-05T18:01:01+08:00] 127.0.0.1 GET 127.0.0.1:8000/index/book
+[运行时间：0.024315s] [吞吐率：41.13req/s] [内存消耗：2,791.89kb] [文件加载：72]
+[ info ] [ LANG ] C:\Users\susu\Desktop\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:8000',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'sec-ch-ua' => '"Google Chrome";v="113", "Chromium";v="113", "Not-A.Brand";v="24"',
+  'sec-ch-ua-mobile' => '?0',
+  'sec-ch-ua-platform' => '"Windows"',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
+  'sec-fetch-site' => 'none',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-user' => '?1',
+  'sec-fetch-dest' => 'document',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=36ovp6eeh957m4cg0eofn54soj',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\Users\susu\Desktop\tp5\application\index\view\book\index.html [ array (
+  0 => 'booklist',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000867s ] mysql:host=127.0.0.1;port=3306;dbname=test;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tbl_book` [ RunTime:0.001276s ]
+[ sql ] [ SQL ] SELECT * FROM `tbl_book` [ RunTime:0.000280s ]
+---------------------------------------------------------------
+
+[2023-06-05T18:01:02+08:00] 127.0.0.1 GET 127.0.0.1:8000/index/book
+[运行时间：0.022623s] [吞吐率：44.20req/s] [内存消耗：2,791.89kb] [文件加载：72]
+[ info ] [ LANG ] C:\Users\susu\Desktop\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:8000',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'sec-ch-ua' => '"Google Chrome";v="113", "Chromium";v="113", "Not-A.Brand";v="24"',
+  'sec-ch-ua-mobile' => '?0',
+  'sec-ch-ua-platform' => '"Windows"',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
+  'sec-fetch-site' => 'none',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-user' => '?1',
+  'sec-fetch-dest' => 'document',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=36ovp6eeh957m4cg0eofn54soj',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\Users\susu\Desktop\tp5\application\index\view\book\index.html [ array (
+  0 => 'booklist',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001893s ] mysql:host=127.0.0.1;port=3306;dbname=test;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tbl_book` [ RunTime:0.001039s ]
+[ sql ] [ SQL ] SELECT * FROM `tbl_book` [ RunTime:0.000226s ]
+---------------------------------------------------------------
+
+[2023-06-05T18:01:36+08:00] 127.0.0.1 GET 127.0.0.1:8000/index/book
+[运行时间：0.020873s] [吞吐率：47.91req/s] [内存消耗：2,791.89kb] [文件加载：72]
+[ info ] [ LANG ] C:\Users\susu\Desktop\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:8000',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'sec-ch-ua' => '"Google Chrome";v="113", "Chromium";v="113", "Not-A.Brand";v="24"',
+  'sec-ch-ua-mobile' => '?0',
+  'sec-ch-ua-platform' => '"Windows"',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
+  'sec-fetch-site' => 'none',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-user' => '?1',
+  'sec-fetch-dest' => 'document',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=36ovp6eeh957m4cg0eofn54soj',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\Users\susu\Desktop\tp5\application\index\view\book\index.html [ array (
+  0 => 'booklist',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000830s ] mysql:host=127.0.0.1;port=3306;dbname=test;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tbl_book` [ RunTime:0.000921s ]
+[ sql ] [ SQL ] SELECT * FROM `tbl_book` [ RunTime:0.000182s ]
+---------------------------------------------------------------
+
+[2023-06-05T18:01:57+08:00] 127.0.0.1 GET 127.0.0.1:8000/index/book
+[运行时间：0.022044s] [吞吐率：45.36req/s] [内存消耗：2,791.89kb] [文件加载：72]
+[ info ] [ LANG ] C:\Users\susu\Desktop\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:8000',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'sec-ch-ua' => '"Google Chrome";v="113", "Chromium";v="113", "Not-A.Brand";v="24"',
+  'sec-ch-ua-mobile' => '?0',
+  'sec-ch-ua-platform' => '"Windows"',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
+  'sec-fetch-site' => 'none',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-user' => '?1',
+  'sec-fetch-dest' => 'document',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=36ovp6eeh957m4cg0eofn54soj',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\Users\susu\Desktop\tp5\application\index\view\book\index.html [ array (
+  0 => 'booklist',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000647s ] mysql:host=127.0.0.1;port=3306;dbname=test;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tbl_book` [ RunTime:0.001401s ]
+[ sql ] [ SQL ] SELECT * FROM `tbl_book` [ RunTime:0.000261s ]
+---------------------------------------------------------------
+
+[2023-06-05T18:02:16+08:00] 127.0.0.1 GET 127.0.0.1:8000/index/book
+[运行时间：0.039670s] [吞吐率：25.21req/s] [内存消耗：2,791.89kb] [文件加载：72]
+[ info ] [ LANG ] C:\Users\susu\Desktop\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:8000',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'sec-ch-ua' => '"Google Chrome";v="113", "Chromium";v="113", "Not-A.Brand";v="24"',
+  'sec-ch-ua-mobile' => '?0',
+  'sec-ch-ua-platform' => '"Windows"',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
+  'sec-fetch-site' => 'none',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-user' => '?1',
+  'sec-fetch-dest' => 'document',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=36ovp6eeh957m4cg0eofn54soj',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\Users\susu\Desktop\tp5\application\index\view\book\index.html [ array (
+  0 => 'booklist',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.020549s ] mysql:host=127.0.0.1;port=3306;dbname=test;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tbl_book` [ RunTime:0.000945s ]
+[ sql ] [ SQL ] SELECT * FROM `tbl_book` [ RunTime:0.000180s ]
+---------------------------------------------------------------
+
+[2023-06-05T18:02:17+08:00] 127.0.0.1 POST 127.0.0.1:8000/index/book/search.html
+[运行时间：0.020629s] [吞吐率：48.48req/s] [内存消耗：2,790.41kb] [文件加载：71]
+[ info ] [ LANG ] C:\Users\susu\Desktop\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:8000',
+  'connection' => 'keep-alive',
+  'content-length' => '3',
+  'cache-control' => 'max-age=0',
+  'sec-ch-ua' => '"Google Chrome";v="113", "Chromium";v="113", "Not-A.Brand";v="24"',
+  'sec-ch-ua-mobile' => '?0',
+  'sec-ch-ua-platform' => '"Windows"',
+  'upgrade-insecure-requests' => '1',
+  'origin' => 'http://127.0.0.1:8000',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
+  'sec-fetch-site' => 'same-origin',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-user' => '?1',
+  'sec-fetch-dest' => 'document',
+  'referer' => 'http://127.0.0.1:8000/index/book',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=36ovp6eeh957m4cg0eofn54soj',
+)
+[ info ] [ PARAM ] array (
+  'id' => '',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\Users\susu\Desktop\tp5\application\index\view\book\search.html [ array (
+  0 => 'booklist',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000932s ] mysql:host=127.0.0.1;port=3306;dbname=test;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tbl_book` [ RunTime:0.001158s ]
+[ sql ] [ SQL ] SELECT * FROM `tbl_book` WHERE  `id` LIKE '%%' [ RunTime:0.000230s ]
+---------------------------------------------------------------
+
+[2023-06-05T18:02:18+08:00] 127.0.0.1 POST 127.0.0.1:8000/index/book/search.html
+[运行时间：0.019803s] [吞吐率：50.50req/s] [内存消耗：2,790.40kb] [文件加载：71]
+[ info ] [ LANG ] C:\Users\susu\Desktop\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:8000',
+  'connection' => 'keep-alive',
+  'content-length' => '3',
+  'cache-control' => 'max-age=0',
+  'sec-ch-ua' => '"Google Chrome";v="113", "Chromium";v="113", "Not-A.Brand";v="24"',
+  'sec-ch-ua-mobile' => '?0',
+  'sec-ch-ua-platform' => '"Windows"',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36',
+  'origin' => 'http://127.0.0.1:8000',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
+  'sec-fetch-site' => 'same-origin',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-user' => '?1',
+  'sec-fetch-dest' => 'document',
+  'referer' => 'http://127.0.0.1:8000/index/book',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=36ovp6eeh957m4cg0eofn54soj',
+)
+[ info ] [ PARAM ] array (
+  'id' => '',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\Users\susu\Desktop\tp5\application\index\view\book\search.html [ array (
+  0 => 'booklist',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000712s ] mysql:host=127.0.0.1;port=3306;dbname=test;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tbl_book` [ RunTime:0.000922s ]
+[ sql ] [ SQL ] SELECT * FROM `tbl_book` WHERE  `id` LIKE '%%' [ RunTime:0.000192s ]
+---------------------------------------------------------------
+
+[2023-06-05T18:02:22+08:00] 127.0.0.1 GET 127.0.0.1:8000/index/book
+[运行时间：0.026845s] [吞吐率：37.25req/s] [内存消耗：2,791.81kb] [文件加载：72]
+[ info ] [ LANG ] C:\Users\susu\Desktop\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:8000',
+  'connection' => 'keep-alive',
+  'sec-ch-ua' => '"Google Chrome";v="113", "Chromium";v="113", "Not-A.Brand";v="24"',
+  'sec-ch-ua-mobile' => '?0',
+  'sec-ch-ua-platform' => '"Windows"',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
+  'sec-fetch-site' => 'none',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-user' => '?1',
+  'sec-fetch-dest' => 'document',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=36ovp6eeh957m4cg0eofn54soj',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\Users\susu\Desktop\tp5\application\index\view\book\index.html [ array (
+  0 => 'booklist',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000606s ] mysql:host=127.0.0.1;port=3306;dbname=test;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tbl_book` [ RunTime:0.000933s ]
+[ sql ] [ SQL ] SELECT * FROM `tbl_book` [ RunTime:0.000170s ]
+---------------------------------------------------------------
+
+[2023-06-05T18:03:35+08:00] 127.0.0.1 GET 127.0.0.1:8000/index/book
+[运行时间：0.020830s] [吞吐率：48.01req/s] [内存消耗：2,791.89kb] [文件加载：72]
+[ info ] [ LANG ] C:\Users\susu\Desktop\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:8000',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'sec-ch-ua' => '"Google Chrome";v="113", "Chromium";v="113", "Not-A.Brand";v="24"',
+  'sec-ch-ua-mobile' => '?0',
+  'sec-ch-ua-platform' => '"Windows"',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
+  'sec-fetch-site' => 'none',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-user' => '?1',
+  'sec-fetch-dest' => 'document',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=36ovp6eeh957m4cg0eofn54soj',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\Users\susu\Desktop\tp5\application\index\view\book\index.html [ array (
+  0 => 'booklist',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001660s ] mysql:host=127.0.0.1;port=3306;dbname=test;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tbl_book` [ RunTime:0.001032s ]
+[ sql ] [ SQL ] SELECT * FROM `tbl_book` [ RunTime:0.000181s ]
+---------------------------------------------------------------
+
+[2023-06-05T18:03:36+08:00] 127.0.0.1 POST 127.0.0.1:8000/index/book/search.html
+[运行时间：0.033023s] [吞吐率：30.28req/s] [内存消耗：2,790.41kb] [文件加载：71]
+[ info ] [ LANG ] C:\Users\susu\Desktop\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:8000',
+  'connection' => 'keep-alive',
+  'content-length' => '3',
+  'cache-control' => 'max-age=0',
+  'sec-ch-ua' => '"Google Chrome";v="113", "Chromium";v="113", "Not-A.Brand";v="24"',
+  'sec-ch-ua-mobile' => '?0',
+  'sec-ch-ua-platform' => '"Windows"',
+  'upgrade-insecure-requests' => '1',
+  'origin' => 'http://127.0.0.1:8000',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
+  'sec-fetch-site' => 'same-origin',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-user' => '?1',
+  'sec-fetch-dest' => 'document',
+  'referer' => 'http://127.0.0.1:8000/index/book',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=36ovp6eeh957m4cg0eofn54soj',
+)
+[ info ] [ PARAM ] array (
+  'id' => '',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\Users\susu\Desktop\tp5\application\index\view\book\search.html [ array (
+  0 => 'booklist',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000845s ] mysql:host=127.0.0.1;port=3306;dbname=test;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tbl_book` [ RunTime:0.000931s ]
+[ sql ] [ SQL ] SELECT * FROM `tbl_book` WHERE  `id` LIKE '%%' [ RunTime:0.000189s ]
+---------------------------------------------------------------
+
+[2023-06-05T18:04:42+08:00] 127.0.0.1 POST 127.0.0.1:8000/index/book/search.html
+[运行时间：0.021978s] [吞吐率：45.50req/s] [内存消耗：2,790.40kb] [文件加载：71]
+[ info ] [ LANG ] C:\Users\susu\Desktop\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:8000',
+  'connection' => 'keep-alive',
+  'content-length' => '3',
+  'cache-control' => 'max-age=0',
+  'sec-ch-ua' => '"Google Chrome";v="113", "Chromium";v="113", "Not-A.Brand";v="24"',
+  'sec-ch-ua-mobile' => '?0',
+  'sec-ch-ua-platform' => '"Windows"',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36',
+  'origin' => 'http://127.0.0.1:8000',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
+  'sec-fetch-site' => 'same-origin',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-user' => '?1',
+  'sec-fetch-dest' => 'document',
+  'referer' => 'http://127.0.0.1:8000/index/book',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=36ovp6eeh957m4cg0eofn54soj',
+)
+[ info ] [ PARAM ] array (
+  'id' => '',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\Users\susu\Desktop\tp5\application\index\view\book\search.html [ array (
+  0 => 'booklist',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000757s ] mysql:host=127.0.0.1;port=3306;dbname=test;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tbl_book` [ RunTime:0.001076s ]
+[ sql ] [ SQL ] SELECT * FROM `tbl_book` WHERE  `id` LIKE '%%' [ RunTime:0.000278s ]
+---------------------------------------------------------------
+
+[2023-06-05T18:05:05+08:00] 127.0.0.1 GET 127.0.0.1:8000/index/book/add.html
+[运行时间：0.012757s] [吞吐率：78.39req/s] [内存消耗：1,813.64kb] [文件加载：65]
+[ info ] [ LANG ] C:\Users\susu\Desktop\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:8000',
+  'connection' => 'keep-alive',
+  'sec-ch-ua' => '"Google Chrome";v="113", "Chromium";v="113", "Not-A.Brand";v="24"',
+  'sec-ch-ua-mobile' => '?0',
+  'sec-ch-ua-platform' => '"Windows"',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
+  'sec-fetch-site' => 'same-origin',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-user' => '?1',
+  'sec-fetch-dest' => 'document',
+  'referer' => 'http://127.0.0.1:8000/index/book/search.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=36ovp6eeh957m4cg0eofn54soj',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] C:\Users\susu\Desktop\tp5\application\index\view\book\add.html [ array (
+) ]
+---------------------------------------------------------------
+
+[2023-06-05T18:05:18+08:00] 127.0.0.1 POST 127.0.0.1:8000/index/book/search.html
+[运行时间：0.038124s] [吞吐率：26.23req/s] [内存消耗：2,790.40kb] [文件加载：71]
+[ info ] [ LANG ] C:\Users\susu\Desktop\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:8000',
+  'connection' => 'keep-alive',
+  'content-length' => '3',
+  'cache-control' => 'max-age=0',
+  'sec-ch-ua' => '"Google Chrome";v="113", "Chromium";v="113", "Not-A.Brand";v="24"',
+  'sec-ch-ua-mobile' => '?0',
+  'sec-ch-ua-platform' => '"Windows"',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36',
+  'origin' => 'http://127.0.0.1:8000',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
+  'sec-fetch-site' => 'same-origin',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-user' => '?1',
+  'sec-fetch-dest' => 'document',
+  'referer' => 'http://127.0.0.1:8000/index/book',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=36ovp6eeh957m4cg0eofn54soj',
+)
+[ info ] [ PARAM ] array (
+  'id' => '',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\Users\susu\Desktop\tp5\application\index\view\book\search.html [ array (
+  0 => 'booklist',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.018611s ] mysql:host=127.0.0.1;port=3306;dbname=test;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tbl_book` [ RunTime:0.001099s ]
+[ sql ] [ SQL ] SELECT * FROM `tbl_book` WHERE  `id` LIKE '%%' [ RunTime:0.000228s ]
+---------------------------------------------------------------
+
+[2023-06-05T18:06:04+08:00] 127.0.0.1 POST 127.0.0.1:8000/index/book/search.html
+[运行时间：0.019847s] [吞吐率：50.39req/s] [内存消耗：2,790.41kb] [文件加载：71]
+[ info ] [ LANG ] C:\Users\susu\Desktop\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:8000',
+  'connection' => 'keep-alive',
+  'content-length' => '3',
+  'cache-control' => 'max-age=0',
+  'sec-ch-ua' => '"Google Chrome";v="113", "Chromium";v="113", "Not-A.Brand";v="24"',
+  'sec-ch-ua-mobile' => '?0',
+  'sec-ch-ua-platform' => '"Windows"',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36',
+  'origin' => 'http://127.0.0.1:8000',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
+  'sec-fetch-site' => 'same-origin',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-user' => '?1',
+  'sec-fetch-dest' => 'document',
+  'referer' => 'http://127.0.0.1:8000/index/book',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=36ovp6eeh957m4cg0eofn54soj',
+)
+[ info ] [ PARAM ] array (
+  'id' => '',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\Users\susu\Desktop\tp5\application\index\view\book\search.html [ array (
+  0 => 'booklist',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000795s ] mysql:host=127.0.0.1;port=3306;dbname=test;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tbl_book` [ RunTime:0.000984s ]
+[ sql ] [ SQL ] SELECT * FROM `tbl_book` WHERE  `id` LIKE '%%' [ RunTime:0.000270s ]
+---------------------------------------------------------------
+
+[2023-06-05T18:06:32+08:00] 127.0.0.1 POST 127.0.0.1:8000/index/book/search.html
+[运行时间：0.028007s] [吞吐率：35.71req/s] [内存消耗：2,790.41kb] [文件加载：71]
+[ info ] [ LANG ] C:\Users\susu\Desktop\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:8000',
+  'connection' => 'keep-alive',
+  'content-length' => '3',
+  'cache-control' => 'max-age=0',
+  'sec-ch-ua' => '"Google Chrome";v="113", "Chromium";v="113", "Not-A.Brand";v="24"',
+  'sec-ch-ua-mobile' => '?0',
+  'sec-ch-ua-platform' => '"Windows"',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36',
+  'origin' => 'http://127.0.0.1:8000',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
+  'sec-fetch-site' => 'same-origin',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-user' => '?1',
+  'sec-fetch-dest' => 'document',
+  'referer' => 'http://127.0.0.1:8000/index/book',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=36ovp6eeh957m4cg0eofn54soj',
+)
+[ info ] [ PARAM ] array (
+  'id' => '',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\Users\susu\Desktop\tp5\application\index\view\book\search.html [ array (
+  0 => 'booklist',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000669s ] mysql:host=127.0.0.1;port=3306;dbname=test;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tbl_book` [ RunTime:0.000986s ]
+[ sql ] [ SQL ] SELECT * FROM `tbl_book` WHERE  `id` LIKE '%%' [ RunTime:0.000286s ]
+---------------------------------------------------------------
+
+[2023-06-05T18:06:33+08:00] 127.0.0.1 POST 127.0.0.1:8000/index/book/search.html
+[运行时间：0.019678s] [吞吐率：50.82req/s] [内存消耗：2,790.41kb] [文件加载：71]
+[ info ] [ LANG ] C:\Users\susu\Desktop\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:8000',
+  'connection' => 'keep-alive',
+  'content-length' => '3',
+  'cache-control' => 'max-age=0',
+  'sec-ch-ua' => '"Google Chrome";v="113", "Chromium";v="113", "Not-A.Brand";v="24"',
+  'sec-ch-ua-mobile' => '?0',
+  'sec-ch-ua-platform' => '"Windows"',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36',
+  'origin' => 'http://127.0.0.1:8000',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
+  'sec-fetch-site' => 'same-origin',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-user' => '?1',
+  'sec-fetch-dest' => 'document',
+  'referer' => 'http://127.0.0.1:8000/index/book',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=36ovp6eeh957m4cg0eofn54soj',
+)
+[ info ] [ PARAM ] array (
+  'id' => '',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\Users\susu\Desktop\tp5\application\index\view\book\search.html [ array (
+  0 => 'booklist',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001111s ] mysql:host=127.0.0.1;port=3306;dbname=test;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tbl_book` [ RunTime:0.001046s ]
+[ sql ] [ SQL ] SELECT * FROM `tbl_book` WHERE  `id` LIKE '%%' [ RunTime:0.000219s ]
+---------------------------------------------------------------
+
+[2023-06-05T18:06:56+08:00] 127.0.0.1 POST 127.0.0.1:8000/index/book/search.html
+[运行时间：0.022353s] [吞吐率：44.74req/s] [内存消耗：2,790.41kb] [文件加载：71]
+[ info ] [ LANG ] C:\Users\susu\Desktop\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:8000',
+  'connection' => 'keep-alive',
+  'content-length' => '3',
+  'cache-control' => 'max-age=0',
+  'sec-ch-ua' => '"Google Chrome";v="113", "Chromium";v="113", "Not-A.Brand";v="24"',
+  'sec-ch-ua-mobile' => '?0',
+  'sec-ch-ua-platform' => '"Windows"',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36',
+  'origin' => 'http://127.0.0.1:8000',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
+  'sec-fetch-site' => 'same-origin',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-user' => '?1',
+  'sec-fetch-dest' => 'document',
+  'referer' => 'http://127.0.0.1:8000/index/book',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=36ovp6eeh957m4cg0eofn54soj',
+)
+[ info ] [ PARAM ] array (
+  'id' => '',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\Users\susu\Desktop\tp5\application\index\view\book\search.html [ array (
+  0 => 'booklist',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000763s ] mysql:host=127.0.0.1;port=3306;dbname=test;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tbl_book` [ RunTime:0.001113s ]
+[ sql ] [ SQL ] SELECT * FROM `tbl_book` WHERE  `id` LIKE '%%' [ RunTime:0.000284s ]
+---------------------------------------------------------------
+
+[2023-06-05T18:06:58+08:00] 127.0.0.1 POST 127.0.0.1:8000/index/book/search.html
+[运行时间：0.019451s] [吞吐率：51.41req/s] [内存消耗：2,790.43kb] [文件加载：71]
+[ info ] [ LANG ] C:\Users\susu\Desktop\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:8000',
+  'connection' => 'keep-alive',
+  'content-length' => '3',
+  'cache-control' => 'max-age=0',
+  'sec-ch-ua' => '"Google Chrome";v="113", "Chromium";v="113", "Not-A.Brand";v="24"',
+  'sec-ch-ua-mobile' => '?0',
+  'sec-ch-ua-platform' => '"Windows"',
+  'upgrade-insecure-requests' => '1',
+  'origin' => 'http://127.0.0.1:8000',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
+  'sec-fetch-site' => 'same-origin',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-user' => '?1',
+  'sec-fetch-dest' => 'document',
+  'referer' => 'http://127.0.0.1:8000/index/book/search.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=36ovp6eeh957m4cg0eofn54soj',
+)
+[ info ] [ PARAM ] array (
+  'id' => '',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\Users\susu\Desktop\tp5\application\index\view\book\search.html [ array (
+  0 => 'booklist',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000723s ] mysql:host=127.0.0.1;port=3306;dbname=test;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tbl_book` [ RunTime:0.000994s ]
+[ sql ] [ SQL ] SELECT * FROM `tbl_book` WHERE  `id` LIKE '%%' [ RunTime:0.000225s ]
+---------------------------------------------------------------
+
+[2023-06-05T18:07:02+08:00] 127.0.0.1 POST 127.0.0.1:8000/index/book/search.html
+[运行时间：0.038567s] [吞吐率：25.93req/s] [内存消耗：2,789.28kb] [文件加载：71]
+[ info ] [ LANG ] C:\Users\susu\Desktop\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:8000',
+  'connection' => 'keep-alive',
+  'content-length' => '4',
+  'cache-control' => 'max-age=0',
+  'sec-ch-ua' => '"Google Chrome";v="113", "Chromium";v="113", "Not-A.Brand";v="24"',
+  'sec-ch-ua-mobile' => '?0',
+  'sec-ch-ua-platform' => '"Windows"',
+  'upgrade-insecure-requests' => '1',
+  'origin' => 'http://127.0.0.1:8000',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
+  'sec-fetch-site' => 'same-origin',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-user' => '?1',
+  'sec-fetch-dest' => 'document',
+  'referer' => 'http://127.0.0.1:8000/index/book/search.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=36ovp6eeh957m4cg0eofn54soj',
+)
+[ info ] [ PARAM ] array (
+  'id' => 'p',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\Users\susu\Desktop\tp5\application\index\view\book\search.html [ array (
+  0 => 'booklist',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000782s ] mysql:host=127.0.0.1;port=3306;dbname=test;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tbl_book` [ RunTime:0.000915s ]
+[ sql ] [ SQL ] SELECT * FROM `tbl_book` WHERE  `id` LIKE '%p%' [ RunTime:0.000266s ]
+---------------------------------------------------------------
+
+[2023-06-05T18:08:08+08:00] 127.0.0.1 POST 127.0.0.1:8000/index/book/search.html
+[运行时间：0.044128s] [吞吐率：22.66req/s] [内存消耗：2,919.28kb] [文件加载：73]
+[ info ] [ LANG ] C:\Users\susu\Desktop\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:8000',
+  'connection' => 'keep-alive',
+  'content-length' => '4',
+  'cache-control' => 'max-age=0',
+  'sec-ch-ua' => '"Google Chrome";v="113", "Chromium";v="113", "Not-A.Brand";v="24"',
+  'sec-ch-ua-mobile' => '?0',
+  'sec-ch-ua-platform' => '"Windows"',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36',
+  'origin' => 'http://127.0.0.1:8000',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
+  'sec-fetch-site' => 'same-origin',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-user' => '?1',
+  'sec-fetch-dest' => 'document',
+  'referer' => 'http://127.0.0.1:8000/index/book/search.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=36ovp6eeh957m4cg0eofn54soj',
+)
+[ info ] [ PARAM ] array (
+  'id' => 'p',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\Users\susu\Desktop\tp5\application\index\view\book\search.html [ array (
+  0 => 'booklist',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000796s ] mysql:host=127.0.0.1;port=3306;dbname=test;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tbl_book` [ RunTime:0.000924s ]
+[ sql ] [ SQL ] SELECT * FROM `tbl_book` WHERE  `id` LIKE '%p%' [ RunTime:0.000195s ]
+---------------------------------------------------------------
+
+[2023-06-05T18:08:33+08:00] 127.0.0.1 POST 127.0.0.1:8000/index/book/search.html
+[运行时间：0.019431s] [吞吐率：51.46req/s] [内存消耗：2,789.27kb] [文件加载：71]
+[ info ] [ LANG ] C:\Users\susu\Desktop\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:8000',
+  'connection' => 'keep-alive',
+  'content-length' => '4',
+  'cache-control' => 'max-age=0',
+  'sec-ch-ua' => '"Google Chrome";v="113", "Chromium";v="113", "Not-A.Brand";v="24"',
+  'sec-ch-ua-mobile' => '?0',
+  'sec-ch-ua-platform' => '"Windows"',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36',
+  'origin' => 'http://127.0.0.1:8000',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
+  'sec-fetch-site' => 'same-origin',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-user' => '?1',
+  'sec-fetch-dest' => 'document',
+  'referer' => 'http://127.0.0.1:8000/index/book/search.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=36ovp6eeh957m4cg0eofn54soj',
+)
+[ info ] [ PARAM ] array (
+  'id' => 'p',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\Users\susu\Desktop\tp5\application\index\view\book\search.html [ array (
+  0 => 'booklist',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000698s ] mysql:host=127.0.0.1;port=3306;dbname=test;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tbl_book` [ RunTime:0.001109s ]
+[ sql ] [ SQL ] SELECT * FROM `tbl_book` WHERE  `id` LIKE '%p%' [ RunTime:0.000299s ]

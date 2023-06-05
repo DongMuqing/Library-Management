@@ -1,4 +1,4 @@
-<?php /*a:1:{s:65:"C:\Users\susu\Desktop\tp5\application\index\view\book\search.html";i:1685954835;}*/ ?>
+<?php /*a:1:{s:65:"C:\Users\susu\Desktop\tp5\application\index\view\book\search.html";i:1685959688;}*/ ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -16,10 +16,10 @@
     <form action="<?php echo url('book/search'); ?>" method="post" class="search">
         <div class="input-group">
             <input type="search" placeholder="请输入书名" name="id">
-            <img src="/static/img/search.png">
+            <button class="seabtn"> <img src="/static/img/search.png"></button>
         </div>
     </form>
-    <button><a href="<?php echo url('book/add'); ?>">添加</a></button>
+    <button class="add"><a href="<?php echo url('book/add'); ?>">添加</a></button>
   </section>
   <section class="shell">
     <table>
