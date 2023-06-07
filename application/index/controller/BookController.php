@@ -29,7 +29,7 @@ class BookController extends Controller
     //添加
     public function adds(Request $request){
         $data=[
-//            'id'=>$request->id,
+            'id'=>$request->id,
             'name'=>$request->name,
             'price'=>$request->price,
             'publicationdate'=>$request->publicationdate,
@@ -86,7 +86,7 @@ class BookController extends Controller
             //添加成功
             return $this->success('修改成功','index',1);
         }
-//        return $this->error('修改失败');
+        return $this->error('修改失败');
     }
 
     //搜索

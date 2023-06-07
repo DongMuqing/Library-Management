@@ -18,7 +18,7 @@ class BookModel
     //添加
     public function adds($data){
         $adds=Db::table('tbl_book')->insert([
-            'id'=>$data['id'],
+            'name'=>$data['name'],
             'price'=>$data['price'],
             'publicationdate'=>$data['publicationdate'],
             'publishinghouse'=>$data['publishinghouse'],
@@ -35,7 +35,7 @@ class BookModel
     //修改
     public function edits($data){
         $edits=Db::table('tbl_book')->where('id',$data['id'])->update([
-            'id'=>$data['id'],
+            'name'=>$data['name'],
             'price'=>$data['price'],
             'publicationdate'=>$data['publicationdate'],
             'publishinghouse'=>$data['publishinghouse'],
@@ -45,13 +45,13 @@ class BookModel
 
 //    查询单行数据
     public function edit($id){
-      $find=Db::table('tbl_book')->where('id',$id)->find();
-      return $find;
+        $find=Db::table('tbl_book')->where('id',$id)->find();
+        return $find;
     }
 
     //根据id查询
     public function search($id){
-        $find=Db::table('tbl_book')->where('id','like','%'.$id.'%')->select();
+        $find=Db::table('tbl_book')->where('name','like','%'.$id.'%')->select();
         return $find;
     }
-    }
+}

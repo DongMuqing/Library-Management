@@ -14,7 +14,7 @@
 
         <form action="{:url('book/search')}" method="post" class="search">
             <div class="input-group">
-                <input type="search" placeholder="请输入查询的书名" name="id">
+                <input type="search" placeholder="请输入查询的书名" name="name">
                 <button class="seabtn"> <img src="__IMG__/search.png"></button>
             </div>
         </form>
@@ -34,7 +34,7 @@
             <tbody>
             {volist name="booklist" id="vo"}
             <tr>
-                <td>{$vo.id}</td>
+                <td>{$vo.name}</td>
                 <td>{$vo.price}</td>
                 <td>{$vo.publicationdate}</td>
                 <td>{$vo.publishinghouse}</td>
