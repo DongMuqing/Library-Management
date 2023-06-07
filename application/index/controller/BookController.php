@@ -28,12 +28,13 @@ class BookController extends Controller
 
     //添加
     public function adds(Request $request){
-       $data=[
-           'id'=>$request->id,
-           'price'=>$request->price,
-           'publicationdate'=>$request->publicationdate,
-           'publishinghouse'=>$request->publishinghouse
-       ];
+        $data=[
+//            'id'=>$request->id,
+            'name'=>$request->name,
+            'price'=>$request->price,
+            'publicationdate'=>$request->publicationdate,
+            'publishinghouse'=>$request->publishinghouse
+        ];
         //实例化
         $model = new BookModel();
         //调用实例方法
@@ -72,6 +73,7 @@ class BookController extends Controller
     public function edits(Request $request){
         $data=[
             'id'=>$request->id,
+            'name'=>$request->name,
             'price'=>$request->price,
             'publicationdate'=>$request->publicationdate,
             'publishinghouse'=>$request->publishinghouse
@@ -84,12 +86,12 @@ class BookController extends Controller
             //添加成功
             return $this->success('修改成功','index',1);
         }
-        return $this->error('修改失败');
+//        return $this->error('修改失败');
     }
 
     //搜索
     public function search(Request $request){
-        $id=$request->id;
+        $id=$request->name;
         $model = new BookModel();
         //调用实例方法
         $to =$model->search($id);
